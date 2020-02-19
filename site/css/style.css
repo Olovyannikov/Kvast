@@ -1,0 +1,476 @@
+body {
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+}
+
+.page-header {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: url("../img/wheat-back.jpg") no-repeat;
+    min-height: 550px;
+    background-position: bottom;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #c3c3c3;
+    background-color: #363636;
+}
+
+.page-header .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header-logo {
+    float: left;
+    padding-top: 60px;
+    width: 200px;
+    height: 76px;
+}
+.header-logo img {
+    width: 140px;
+    height: 76px;
+    padding-right: 60px;
+}
+
+.main-nav ul {
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin: 70px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    max-width: 600px;
+}
+
+.main-nav li {
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+    padding: 25px 0;
+    margin-right: 50px;
+}
+
+.main-nav li:first-child {
+    margin-right: 55px;
+}
+
+.main-nav li:hover {
+    border-bottom: 1px solid #FFF;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+
+    color: #ffcb78;
+}
+
+.main-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+.promo {
+    margin-top: 135px;
+    margin-bottom: 150px;
+}
+
+.promo p{
+     padding: 0;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: center;
+    height: 140px;
+    width: 800px;
+    line-height: 70px;
+}
+
+
+.newsletter .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.newsletter-news {
+    margin: 95px 0 100px 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.newsletter .new-position {
+    width: 400px;
+    float: left;
+}
+
+.newsletter .new-position-name {
+    text-transform: uppercase;
+    width: 400px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.position-table {
+    max-width: 200px;
+    position: absolute;
+    left: 230px;
+}
+
+.price-list {
+    border-collapse: collapse;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.price-list {
+    max-width: 150px;
+    height: 85px;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.price-list td {
+    border: 1px solid #d8d8d8;
+}
+
+.price-list td {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.price-list .price-alc {
+    width: 80px;
+    text-align: left;
+}
+
+.price-list .price-percent {
+    width: 70px;
+    text-align: left;
+}
+
+.price-list .price-fat {
+    width: 80px;
+    text-align: left;
+}
+
+.price-list .price-count {
+    width: 70px;
+    text-align: left;
+}
+.new-position {
+    position: relative;
+}
+
+.new-position .item-image {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.new-position  .ingridients {
+    width: 150px;
+    float:right;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.new-position .about {
+    width: 400px;
+    float: left;
+}
+h3.new-position-name {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+
+div.about {
+    max-width: 330px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Arial', serif;
+    margin: 0 auto;
+    margin-bottom: 115px;
+}
+
+
+.about .btn {
+    margin-right: 10px;
+}
+
+.about a.btn-about{
+    float: left;
+    text-decoration: none;
+    color: #834700;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #834700;
+    cursor: pointer;
+}
+
+.about a.btn-about:hover {
+    color: #6a3900;
+    border-color: #6a3900;
+    cursor: pointer;
+}
+
+.about a.btn-about:active {
+    opacity: .3;
+}
+
+.about a.btn-buy {
+    float: left;
+    text-decoration: none;
+    width: 66px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #834700;
+    background-color: #834700;
+    cursor: pointer;
+}
+
+.about a.btn-buy:hover {
+
+}
+
+.about a.btn-buy:active {
+
+}
+.about .overprice {
+    float: left;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.buy {
+    min-width: 400px;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+.features {
+    background-color: #ffcb78;
+    max-height: 410px;
+}
+
+.features ul {
+    padding: 0;
+    list-style: none;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.feature-item {
+    position: relative;
+    float: left;
+    padding-top: 40px;
+}
+
+.feature-brew {
+    width: 400px;
+}
+
+.feature-local {
+    width: 400px;
+}
+
+.feature-economy {
+    width: 210px;
+}
+
+.feature-brew::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/icon-brew.png");
+    background-repeat: no-repeat;
+}
+
+.feature-local::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/icon-matreshka.png");
+    background-repeat: no-repeat;
+}
+
+.feature-economy::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/icon-thumbsup.png");
+    background-repeat: no-repeat;
+}
+
+.feature-title {
+    text-transform: uppercase;
+    margin: 40px 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Arial", serif;
+    color: #000;
+}
+
+.feature-item p {
+    margin: 0;
+    width: 210px;
+    height: 175px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.features .container {
+    width: 1011px;
+    margin: 0 auto;
+}
+
+.history {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.history dl dt h3 {
+    position: relative;
+    float: left;
+    font-size: 20px;
+    width: 600px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.history a ,img {
+    float: right;
+    vertical-align: middle;
+}
+
+.history dd  {
+    margin: 0;
+    padding: 0;
+}
+
+.history dd p {
+    font-size: 16px;
+    line-height: 30px;
+    width: 600px;
+}
+
+.about-us {
+    min-height: 480px;
+    background-color: #ede5d8;
+}
+
+.about-us h2 {
+    padding-top: 95px;
+}
+
+.about-us p {
+    line-height: 30px;
+    font-family: 'Arial', serif;
+    width: 700px;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.about-us blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+blockquote::before {
+    content: "";
+    position: absolute;
+    top: 222px;
+    left: -110px;
+    width: 40px;
+    height: 30px;
+    background-image: url("../img/quotes.png");
+    background-repeat: no-repeat;
+
+}
+
+.about-us p.papper-name {
+    float: right;
+    font-family: Arial,serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 40px 0 0 0;
+    width: 400px;
+    text-align: right;
+    height: 125px;
+}
+
+blockquote a {
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: 2px solid grey;
+    line-height: 20px;
+    cursor: pointer;
+    margin-top: 29px;
+}
+
+.about-us .container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
