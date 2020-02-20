@@ -474,3 +474,69 @@ blockquote a {
     margin: 0 auto;
 }
 
+section.range {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 95px;
+}
+
+.range .range-table {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-collapse: collapse;
+}
+
+.range .range-table tr {
+
+    border-bottom: 1px solid grey;
+}
+
+.range .range-table th:first-child,
+                    td:first-child {
+    min-width: 200px;
+}
+
+.range .range-table th:last-child,
+.range .range-table td:last-child  {
+    text-align: right;
+}
+
+.range .range-table td:first-child {
+    font-weight: bold;
+}
+
+.range .range-table th {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.range .range-table td {
+    padding: 25px 0 ;
+}
+
+.range .range-table sup {
+    color: #FFF;
+    background-color: #000;
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 2px 5px;
+    margin-left: 25px;
+}
+
+.feedback {
+    background-color: #ffcb78;
+}
+
+.feedback .container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.feedback h2 {
+    padding-top: 95px;
+}
