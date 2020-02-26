@@ -132,12 +132,13 @@ body {
 }
 
 .position-table {
-    max-width: 200px;
     position: absolute;
     left: 230px;
 }
 
 .price-list {
+
+    max-width: 200px;
     border-collapse: collapse;
     font-weight: bold;
     font-size: 16px;
@@ -495,7 +496,7 @@ section.range {
 }
 
 .range .range-table th:first-child,
-                    td:first-child {
+.range .range-table td:first-child {
     min-width: 200px;
 }
 
@@ -540,3 +541,241 @@ section.range {
 .feedback h2 {
     padding-top: 95px;
 }
+
+.feedback p {
+    margin-bottom: 80px;
+}
+
+.feedback label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.feedback .data-form {
+    width: 630px;
+    margin-bottom: 25px;
+}
+
+.feedback input, .feedback select {
+    width: 630px;
+    height: 50px;
+    background-color: #e5b66c;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-top: 15px;
+}
+
+.feedback textarea {
+    background-color: #e5b66c;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    margin-top: 15px;
+}
+
+.data-form input#us-phone {
+    width: 290px;
+
+}
+
+.data-form input#second_us-phone {
+    width: 290px;
+}
+
+.data-form.number {
+    max-width: 290px;
+    float: left;
+    margin-right: 50px;
+}
+.data-form.second-number {
+    max-width: 290px;
+    float: left;
+}
+
+input[type="checkbox"] {
+display: none;
+}
+
+select, option    {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bolder;
+    padding-left: 25px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input[type=checkbox]:checked + label::before {
+    content: '';
+    background: url('../img/check.png') no-repeat 50% 50%;
+    margin-right: 20px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #e5b66c;
+    vertical-align: bottom;
+}
+
+input[type=checkbox] + label::before {
+    content: '';
+    margin-right: 20px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #e5b66c;
+    vertical-align: bottom;
+}
+
+form div  button.btn {
+    margin-top: 20px;
+    margin-bottom: 110px;
+    width: 200px;
+    height: 50px;
+    background-color: #834700;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.page-footer {
+    background-color: black;
+}
+
+.page-footer .container {
+    max-width: 1010px;
+    box-sizing: content-box;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    float: left;
+    padding-top: 60px;
+    width: 308px;
+    height: 76px;
+}
+.footer-logo img {
+    width: 140px;
+    height: 76px;
+    padding-right: 125px;
+}
+
+.footer-nav ul {
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin: 70px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    max-width: 602px;
+}
+
+.footer-nav li {
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+    padding: 25px 0;
+    margin-right: 50px;
+}
+
+.footer-nav li:first-child {
+    margin-right: 55px;
+}
+
+.footer-nav li:hover {
+    border-bottom: 1px solid #FFF;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+
+    color: #ffcb78;
+}
+
+.footer-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.social {
+    width: 215px;
+    height: 68px;
+    margin-top: 46px;
+    float: left;
+}
+
+.social .social-btn  {
+    margin-left: -4px;
+    font-size: 0;
+}
+
+.social-btn::before {
+    content: '';
+    border: rgba(255, 203, 120, .1) solid 1px;
+    display: inline-block;
+    width: 70px;
+    height: 68px;
+    background: #1b1b1b url("../img/icon-insta.png") no-repeat 50%;
+}
+
+ .social-fb::before {
+    background-image: url("../img/icon-fb.png");
+}
+
+ .social-vk::before {
+     background-image: url("../img/icon-vk.png");
+ }
+
+.social-btn:first-child::before,
+.social-btn:nth-child(2)::before{
+    border-right: none;
+}
+
+p.copyright {
+    float: left;
+    width: 203px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #989898;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.logo_footer {
+    float: right;
+    width: 304px;
+}
+
+.logo_footer p::before {
+    content: '';
+    border: rgba(255, 203, 120, .1) solid 1px;
+    display: inline-block;
+    width: 70px;
+    height: 68px;
+    background: #1b1b1b url("../img/htmlacademy.png") no-repeat 50%;
+}
+
+.logo_footer p {
+    margin-top: 46px;
+}
+
+.
+
+
