@@ -19,7 +19,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../the-great-keksby/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3080">
+                <state relative-caret-position="476">
                   <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
                 </state>
               </provider>
@@ -28,8 +28,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="704">
-                  <caret line="262" column="6" lean-forward="true" selection-start-line="261" selection-start-column="14" selection-end-line="262" selection-end-column="6" />
+                <state relative-caret-position="680">
+                  <caret line="257" column="6" lean-forward="true" selection-start-line="257" selection-start-column="6" selection-end-line="257" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -41,7 +41,7 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../the-great-keksby/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-8826">
+                <state relative-caret-position="2686">
                   <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
                 </state>
               </provider>
@@ -50,7 +50,7 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="701">
+                <state relative-caret-position="694">
                   <caret line="778" column="1" selection-start-line="778" selection-start-column="1" selection-end-line="778" selection-end-column="1" />
                 </state>
               </provider>
@@ -171,11 +171,12 @@
       <workItem from="1582173248914" duration="182000" />
       <workItem from="1582618409088" duration="3415000" />
       <workItem from="1582633411877" duration="4715000" />
+      <workItem from="1582832044634" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39399000" />
+    <option name="totallyTimeSpent" value="39401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -202,19 +203,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32963374" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -225,6 +226,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4454">
+          <caret line="262" column="6" lean-forward="true" selection-start-line="261" selection-start-column="14" selection-end-line="262" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../the-great-keksby/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13226">
+          <caret line="778" column="1" selection-start-line="778" selection-start-column="1" selection-end-line="778" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../the-great-keksby/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -443,29 +465,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../the-great-keksby/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3080">
+        <state relative-caret-position="476">
           <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../the-great-keksby/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8826">
+        <state relative-caret-position="2686">
           <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
+        <state relative-caret-position="694">
           <caret line="778" column="1" selection-start-line="778" selection-start-column="1" selection-end-line="778" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="262" column="6" lean-forward="true" selection-start-line="261" selection-start-column="14" selection-end-line="262" selection-end-column="6" />
+        <state relative-caret-position="680">
+          <caret line="257" column="6" lean-forward="true" selection-start-line="257" selection-start-column="6" selection-end-line="257" selection-end-column="6" />
         </state>
       </provider>
     </entry>
